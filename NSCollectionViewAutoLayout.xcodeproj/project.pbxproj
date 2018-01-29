@@ -11,6 +11,7 @@
 		697EB70B201EFEFD008B8AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697EB70A201EFEFD008B8AED /* ViewController.swift */; };
 		697EB70D201EFEFD008B8AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697EB70C201EFEFD008B8AED /* Assets.xcassets */; };
 		697EB710201EFEFD008B8AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697EB70E201EFEFD008B8AED /* Main.storyboard */; };
+		697EB719201EFF9F008B8AED /* CustomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697EB718201EFF9F008B8AED /* CustomCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		697EB70F201EFEFD008B8AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		697EB711201EFEFD008B8AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697EB712201EFEFD008B8AED /* NSCollectionViewAutoLayout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSCollectionViewAutoLayout.entitlements; sourceTree = "<group>"; };
+		697EB718201EFF9F008B8AED /* CustomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				697EB708201EFEFD008B8AED /* AppDelegate.swift */,
 				697EB70A201EFEFD008B8AED /* ViewController.swift */,
+				697EB718201EFF9F008B8AED /* CustomCellView.swift */,
 				697EB70C201EFEFD008B8AED /* Assets.xcassets */,
 				697EB70E201EFEFD008B8AED /* Main.storyboard */,
 				697EB711201EFEFD008B8AED /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				697EB70B201EFEFD008B8AED /* ViewController.swift in Sources */,
+				697EB719201EFF9F008B8AED /* CustomCellView.swift in Sources */,
 				697EB709201EFEFD008B8AED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +272,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NSCollectionViewAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sb.NSCollectionViewAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -283,6 +288,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NSCollectionViewAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sb.NSCollectionViewAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
